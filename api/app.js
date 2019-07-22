@@ -13,7 +13,7 @@ var modifyUrl = require("./routes/modifyUrl");
 var app = express();
 
 
-app.listen(8443)
+app.listen(443)
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
